@@ -1,0 +1,194 @@
+        ÿÿ  ÿÿ                   ?  $   M U I   ÿÿ?     0?	?        ÍþÍþ ?    ?     ?       ?   bÊ=m“P½Ä(^?q?Í©@}Uÿ?¿/?Æ5? ==?Ÿ?                        ˆ   ?   ¨   ?   À   ?   Ð   ?           ð   ?       R E G I N S T   M U I           ?   ?   ?   ?   ?   ?   M U I           ?   ?   ?   ?   	   ?   ?       e n - U S       =?  8   R E G I N S T   R E G I N S T       0?	?        [Version]
+Signature="$CHICAGO$"
+[RegExe]
+AddReg=AddRegRegedit
+RequiredEngine=SETUPAPI,%ERR_NOSETUPAPI%
+[UnregExe]
+DelReg=DelRegRegedit
+RequiredEngine=SETUPAPI,%ERR_NOSETUPAPI%
+[AddRegRegedit]
+HKCR,".reg",,,"regfile"
+HKCR,"regedit",,,"%DESC_RegFile%"
+HKCR,"regedit\shell\open\command",,,"regedit.exe %1"
+HKCR,"regfile",,,"%DESC_RegFile%"
+HKCR,"regfile","FriendlyTypeName",,"@regedit.exe,-309" ; IDS_FILETYPE
+HKCR,"regfile\DefaultIcon",,,"regedit.exe,1"
+HKCR,"regfile\shell\open",,,"Mer&ge"
+HKCR,"regfile\shell\open","MUIVerb",,"@regedit.exe,-310" ; IDS_MERGE
+HKCR,"regfile\shell\open\command",,,"regedit.exe ""%1"""
+[DelRegRegedit]
+HKCR,".reg"
+HKCR,"regedit"
+HKCR,"regfile"
+[Strings]
+DESC_RegFile = "Registration Entries"
+ERR_NOSETUPAPI   = "Can not register REGEDIT.EXE because SETUPAPI.DLL is missing."
+   4?      ÿÿ? ÿÿ?     0?	?        ¤ ? (       @   ? ?     €                       ÿÿÿ                                              ?€  ?€  ?€  ?€  B‚  ¢… ?>ü€??€@??€ ??€@?>ü€ ¢…  B‚  ?€  ?€  ?€  ?€                 ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿüÿÿüÿÿüÿÿüÿÿ¼}ÿÿ?xÿþ  ü  ?ø  ?ü  ?þ  ÿ?xÿÿ¼}ÿÿüÿÿüÿÿüÿÿüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿè?      ÿÿ? ÿÿ?     0?	?        (       @   ? ?      ?                        €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ                 Žþöþþnþö         ïæïïoïæ`       Žþöþþnþö`        ïæïïoïæ``      †ffff¤ÿö``       ïæïï`ïï```     Žþöþþf   ``      ïæïïf?ff `     Žþöþþf?fö``     †f`ÿÿf?oæ`      Žþö?nö?þö``      ïæ`  ¤ÿö``     Žþö`ff`þþ``      ïæ`fof   `ö`    ÿö`fþf?ff¤ïf   ?ïï`oïf?fæþþö`   †f`ÿÿf?nöoïf    ?ïïoïæ?ïæ`ö`     †ffff¤ÿö`ˆ€     ?ïïoïæïï`        ˆˆˆˆˆˆˆˆ                  €              ?ö`         ?`   ïf         †f ?þþö`       ?fö`  ïf        ?oï` ?ö`        ?þþð  ˆ€          ï              ?ð               €        ÿÿ  ÿ  ?ÿ  ?ÿ  ¤ÿ  •ÿ  ?ÿ  ?ÿ  ?ÿ  ?ÿ  ?ÿ  ?ÿ  ?ÿ      ?   ?€  ¤À  ?à  ?ð  ø ?ÿü ?ÿÿÿÿÇÿÿßƒÿÿ ?ÿÿ? ÿþ??ÿþ?ƒÿþ?Çÿÿ•ÿÿÿ ÿÿÿßÿ(?      ÿÿ? ÿÿ?     0?	?        (   ?       ? ?     €                         €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ          æþoæ   Žöïnö   †ffoæ?   æþ` ?  Žöï`f?  †`o`æ    æ  ö?  Žö?f ?  ?ï?ö??   †oö?€†  ?ˆˆ€?n`    †      ?n`?             ?    ?   ?   ¤   •   •   •   •   •   •  €?  À?  à   ÿ?  þ?  ÿ?  ÿ¿  è?      ÿÿ? ÿÿ?     0?	?        (       @   ? ?      ?                        €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ                     ‡wwwwwwwwwwp www‡wÿÿÿÿÿÿÿÿp www‡wwÿÿÿÿÿÿÿÿp      •ÿÿÿÿÿÿÿpŽþnþnþ`wÿÿÿÿÿÿÿp ïoïoï`•÷wÿÿÿpŽþnþnþ``wÿwwÿÿÿp†fff¤ÿ``•÷wÿÿpŽþnþ`  ``wÿÿ÷ÿÿp ïoï`ff `ÿÿ÷wÿpŽþnþ`fæ``ÿÿwwwÿp†f¤ÿ`nö` ÿÿÿwÿÿpŽþ`  ÿö``ÿÿÿÿÿÿp ï`ff?þ``ð¤ÿÿÿÿpŽþ`fæ`  `†`ÿÿÿÿp ÿ`nö`ff?ïf¤ÿÿÿp?f`ÿö`fæ~þö`ÿÿÿp Žþnþ`nögïf¤ÿÿÿp ?fff`ïö`†`ÿÿÿÿp  Žþnþnþ`ø ÿÿÿÿp  ?ˆˆˆˆˆˆÿÿ ÿÿÿp     ÿÿ¤ÿÿøf¤ÿÿp     ÿø`ÿÿŽö`ÿÿp     ÿ†f¤øïïf¤ÿp     øfö`ÿŽö`ÿÿp     øoï`ÿøf¤€       ÿŽþ¤ÿÿˆÿ ø      ÿøàÿÿÿÿÿ €      ÿÿ ÿÿÿÿÿˆ       ÿÿÿÿÿÿÿÿ€      ˆˆˆˆˆˆˆˆˆ€  ÿ   ÿ   À   À                                                       €   À   à   ð   ø   ÿ   ÿ   ÿ   ÿ   ÿ   ÿ  ?ÿ  ?ÿ  •ÿ  ¤ÿ  ?(?      ÿÿ? ÿÿ?     0?	?        (   ?       ? ?     €                         €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ          ?wwwwwp ?ÿÿÿÿÿp    ÿÿÿp æþ`¤ÿÿpŽöï``ÿÿp†`o``ÿÿp æ  `ÿÿpŽö?f ÿÿp?ï?ö`ÿÿp †oæ`ÿÿp ?ˆˆˆÿÿp ?ÿÿÿÿ   ?ÿÿÿÿ€ ?ÿÿÿÿx  ?ˆˆˆˆ€ à s	à rlà 8   ø   ui   %  Sh  t+    € ÷ À coà   à ð à?coà?  à•ø è?      ÿÿ? ÿÿ?     0?	?        (       @   ? ?      ?                        €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ                 Žþöþþnþö  ?ÎÀ    ïæïïoïæ` LîÀ   Žþöþþnþö`?ÎìÀ    ïæïïoïæ`LîÌ?   †ffff¤ÿödÎìÀ€    ïæïï`ïïLîÌ?    Žþöþþf ?ÎìÀ€     ïæïïf?LîÌ?     Žþöþþf?ÎìÀ€     †f`ÿÿf‡þÌ?      Žþð  ?xÀ€`      à?ff`•ˆ?``     Ž‡æààæ`€Ž``     ˆ~þnnnf?  `ö`   ˆïæàæïæ?ff¤ïf   Žþþnnþn`fæþþö`  €ææàïïæ`nöoïf   Ž?þþþþn`ïæ`ö`   €àæææææ`ÿö`ˆ€   Ž??þþnþ`ïï`     ?ààèèèè?ˆˆˆ     ????nnf?     €   €ààææ`€    ?ö`  ?Ž??`? ?`   ïf   ?ˆˆ?  †f ?þþö`       ?fö`  ïf        ?oï` ?ö`        ?þþð  ˆ€          ï              ?ð               €        ü  x?  0?   ?   ?      ÿ  ?ÿ  ?ÿ  ?ÿ  ?ÿ  ?ÿ  ?ÿ      ?   ?   ¤@  ?   ?P  ( ?ÿ” ?ÿª ÿÇÕ?ßƒâƒ ?ø¤? ÿþ??ÿþ?ƒÿþ?Çÿÿ•ÿÿÿ ÿÿÿßÿ(?      ÿÿ? ÿÿ?     0?	?        (   ?       ? ?     €                         €  €   €€ €   € € €€  €€€ ÀÀÀ   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ       ‡w  ‡w€?÷ •ÿwwÿ÷wÿÿÿÿÿ÷ ÿÿÿÿÿÿ÷ ÿÿÿÿÿÿ÷ “—Ÿ“—ÿ÷ yù?yù?÷ ó˜Ÿ—ù÷ ÿù?9óŸ÷ ùyÿ——ÿ÷ ÿÿÿ9ÿÿ÷ ÿÿÿ˜ÿˆ‡ ÿÿÿÿÿ p ÿÿÿÿÿ‡ ˆˆˆˆˆˆp ÿð  ð`  à                                            ?   ?   •  h?      ÿÿ? ÿÿ•     0?	?        (   ?       ? ?      ?           ?   ?      .SÚ      ‘  ™™™ ±±± ÓÓÓ ÓÔÓ ÔÔÓ ÔÔÔ ïïð òòò ö÷÷ ùùù ûüü þþþ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ÿÿÿ             	???    	???	  	????   ??
+
+
+????
+
+
+????	
+
+
+?	
+
+
+?	
+
+
+?	
+?????
+????
+
+
+?	
+??
+??
+??
+??
+
+?	
+
+????
+??
+??
+
+?	
+
+
+??
+??
+??
+
+?	
+
+???
+
+????
+
+
+?	
+
+
+??
+
+
+??	
+
+
+??
+
+????	
+
+
+?
+? 	
+
+
+??  												?   ÿð  ð`  à                                            ?   ?   •  h?      ÿÿ? ÿÿ?     0?	?        (   ?       ?       @?                                                                  ÔÔÔÿ™™™ÿ™™™ÿ™™™ÿ                ÔÔÔÿ‘‘‘ÿ‘‘‘ÿ‘‘‘ÿÔÔÔÿ        ÔÔÔÿ™™™ÿö÷÷ÿö÷÷ÿ‘‘‘ÿ            ™™™ÿ™™™ÿøùùÿøùùÿÿÿÿÿ™™™ÿ™™™ÿ™™™ÿ™™™ÿøùùÿøùùÿøùùÿ‘‘‘ÿ™™™ÿ™™™ÿ™™™ÿÔÔÔÿùùùÿùùùÿùùùÿùùùÿùùùÿùùùÿùùùÿùùùÿùùùÿùùùÿùùùÿ‘‘‘ÿÓÓÓûùúúÿùúúÿùúúÿùúúÿùúúÿùúúÿùúúÿùúúÿùúúÿùúúÿùúúÿùúúÿùúúÿùúúÿ‘‘‘ÿÓÓÓûúúúÿúúúÿúúúÿúúúÿúúúÿúúúÿúúúÿúúúÿúúúÿúúúÿúúúÿúúúÿúúúÿúúúÿ‘‘‘ÿÓÓÓûúûûÿ.SÚÿ.SÚÿ.SÚÿ.SÚÿ.SÚÿúûûÿ.SÚÿ.SÚÿ.SÚÿ.SÚÿúûûÿúûûÿúûûÿ‘‘‘ÿÓÔÓûûüüÿ.SÚÿ.SÚÿûüüÿ.SÚÿ.SÚÿûüüÿ.SÚÿ.SÚÿûüüÿ.SÚÿ.SÚÿûûûÿûûûÿ‘‘‘ÿÔÔÓûûüüÿûüüÿ.SÚÿ.SÚÿ.SÚÿ.SÚÿûüüÿ.SÚÿ.SÚÿûüüÿ.SÚÿ.SÚÿýýýÿýýýÿ‘‘‘ÿÔÔÔûýýýÿýýýÿýýýÿýýýÿ.SÚÿ.SÚÿýýýÿ.SÚÿ.SÚÿýýýÿ.SÚÿ.SÚÿýüüÿýýýÿ‘‘‘ÿÔÔÔûþþþÿþþþÿ.SÚÿ.SÚÿ.SÚÿþþþÿþþþÿ.SÚÿ.SÚÿ.SÚÿ.SÚÿþþþÿýýýÿýýýÿ‘‘‘ÿÔÔÔûþþþÿþþþÿþþþÿþþþÿþþþÿþþþÿþþþÿ.SÚÿ.SÚÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿïïðÿ‘‘‘ÿÔÔÔûþþþÿþþþÿþþþÿþþþÿþþþÿþþþÿþþþÿ.SÚÿ.SÚÿÿÿÿÿÿÿÿÿ²²²ÿ²²²ÿ²²²ÿ‘‘‘ÿÔÔÔûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ²²²ÿÿÿÿÿ‘‘‘ÿ    ÕÕÕûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿòòòÿ²²²ÿ‘‘‘ÿ        ÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿ‘‘‘ÿ            ÿð  ð`  à                                            ?   ?   •  (?      ÿÿ? ÿÿ	     0?	?        (   ?       ? ?     €                         €  €   €€ €   € € €€  €€€ ÀÀÀ   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ       ‡w  ‡w€?÷ •ÿwwÿ÷wxÿÿÿÿÿ÷ üÏÌÿÌÏ÷ üÏÌüÏÌ÷ üÏÌüÏÌ÷ üÏÌÿÌÏ÷ ÿÿÿÿÿÿ÷ üÌÿÌüÏ÷ ÌüÏÌüÏ÷ ÌüÏÌüÏ÷ üÌÿÌüˆ‡ ÿÿÿÿÿ p ÿÿÿÿÿ‡ ˆˆˆˆˆˆp ÿð  ð`  à                                            ?   ?   •  h?      ÿÿ? ÿÿ
+     0?	?        (   ?       ? ?      ?           ?   ?      ÚS.      ‘  ™™™ ²²² ÓÓÓ ÓÔÓ ÔÔÓ ÔÔÔ ïïð òòò ö÷÷ ùùù ûüü þþþ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ÿÿÿ             	???    	???	  	????   ??
+
+
+????
+
+
+????	
+
+
+?	
+
+??
+??
+
+???
+
+?	
+
+??
+??
+??
+??
+?	
+
+??
+??
+??
+??
+?	
+
+??
+??
+
+???
+
+?	
+
+
+?	
+
+???
+
+??
+??
+
+?	
+??
+??
+??
+??
+
+?	
+??
+??
+??
+??
+??	
+
+???
+
+??
+?????	
+
+
+?
+? 	
+
+
+??  												?   ÿð  ð`  à                                            ?   ?   •  h?      ÿÿ? ÿÿ?     0?	?        (   ?       ?       @?                                                                  ÔÔÔÿ™™™ÿ™™™ÿ™™™ÿ                ÔÔÔÿ™™™ÿ™™™ÿ™™™ÿÔÔÔÿ        ÔÔÔÿ™™™ÿö÷÷ÿö÷÷ÿŒŒŒõ            ™™™ÿ™™™ÿøùùÿøùùÿøùùÿ™™™ÿ™™™ÿ™™™ÿ™™™ÿøùùÿøùùÿøùùÿ‘‘‘ÿ™™™ÿ™™™ÿ™™™ÿÔÔÔÿùùùÿùùùÿùùùÿùùùÿùùùÿùùùÿùùùÿùùùÿùùùÿùùùÿùùùÿ‘‘‘ÿÓÓÓûùúúÿùúúÿÚS.ÿÚS.ÿùúúÿÚS.ÿÚS.ÿùúúÿùúúÿÚS.ÿÚS.ÿÚS.ÿùúúÿùúúÿ‘‘‘ÿÓÓÓûúúúÿúúúÿÚS.ÿÚS.ÿúúúÿÚS.ÿÚS.ÿúúúÿÚS.ÿÚS.ÿúúúÿÚS.ÿÚS.ÿúúúÿ‘‘‘ÿÓÓÓûúûûÿúûûÿÚS.ÿÚS.ÿúûûÿÚS.ÿÚS.ÿúûûÿÚS.ÿÚS.ÿúûûÿÚS.ÿÚS.ÿúûûÿ‘‘‘ÿÓÔÓûûüüÿûüüÿÚS.ÿÚS.ÿûüüÿÚS.ÿÚS.ÿûüüÿûüüÿÚS.ÿÚS.ÿÚS.ÿûûûÿûûûÿ‘‘‘ÿÔÔÓûûüüÿûüüÿûüüÿûüüÿûüüÿûüüÿûüüÿûüüÿûüüÿûüüÿûüüÿûüüÿýýýÿýýýÿ‘‘‘ÿÔÔÔûýýýÿýýýÿÚS.ÿÚS.ÿÚS.ÿýýýÿýýýÿÚS.ÿÚS.ÿýýýÿÚS.ÿÚS.ÿýüüÿýýýÿ‘‘‘ÿÔÔÔûþþþÿÚS.ÿÚS.ÿþþþÿÚS.ÿÚS.ÿþþþÿÚS.ÿÚS.ÿþþþÿÚS.ÿÚS.ÿýýýÿýýýÿ………æÔÔÔûþþþÿÚS.ÿÚS.ÿþþþÿÚS.ÿÚS.ÿþþþÿÚS.ÿÚS.ÿþþþÿÚS.ÿÚS.ÿýýýÿïïðÿ‘‘‘ÿÔÔÔûþþþÿþþþÿÚS.ÿÚS.ÿÚS.ÿþþþÿþþþÿÚS.ÿÚS.ÿþþþÿÚS.ÿ²²²ÿ²²²ÿ²²²ÿ‘‘‘ÿÔÔÔûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ²²²ÿÿÿÿÿ‘‘‘ÿ    ÕÕÕûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿòòòÿ²²²ÿ‘‘‘ÿ        ÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿÔÔÔÿ‘‘‘ÿ            ÿð  ð`  à                                            ?   ?   •  ¶       ÿÿ? ÿÿd     0?	?          ? ?   @ ? ? 4?  ? "       ÿÿ? ÿÿd     0?	?          ? ?   ? ? ? è?  ? ??? ? ? (?  ?   "       ÿÿ? ÿÿe     0?	?          ? ?   ? ? ? è?  ? ??? ? ? (?  ?   ¶       ÿÿ? ÿÿf     0?	?          ? ?   ? ? ? è?  ? 0       ÿÿ? ÿÿÍ     0?	?          ? ? ??? ? ? (?  ? ??  ? ? h?  • ??  ?   h?  ? 0       ÿÿ? ÿÿÎ     0?	?          ? ? ??? ? ? (?  	 ??  ? ? h?  
+ ??  ?   h?  ? x?      ÿÿ? ÿÿ?     0?	?        x?4   V S _ V E R S I O N _ I N F O     ½?ïþ  ? ? ?   x?? ?   x??       ? ? ?               Ö?  ? S t r i n g F i l e I n f o   ²?  ? 0 4 0 9 0 4 B 0   L ? ? C o m p a n y N a m e     M i c r o s o f t   C o r p o r a t i o n   H ? ? F i l e D e s c r i p t i o n     R e g i s t r y   E d i t o r   n ' ? F i l e V e r s i o n     6 . 2 . 8 0 5 6 . 0   ( f b l _ g r f x _ d e v 1 . 1 1 0 7 2 7 - 1 7 2 8 )     0 ? ? I n t e r n a l N a m e   R E G E D I T   € . ? L e g a l C o p y r i g h t   ©   M i c r o s o f t   C o r p o r a t i o n .   A l l   r i g h t s   r e s e r v e d .   @ ? ? O r i g i n a l F i l e n a m e   R E G E D I T . E X E   j % ? P r o d u c t N a m e     M i c r o s o f t ®   W i n d o w s ®   O p e r a t i n g   S y s t e m     : ? ? P r o d u c t V e r s i o n   6 . 2 . 8 0 5 6 . 0     D   ? V a r F i l e I n f o     $ ?   T r a n s l a t i o n     	?°?£?      ÿÿ? ÿÿ?     0?	?        <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (c) Microsoft Corporation. Guest 24897/others is not owning this program! -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+<assemblyIdentity 
+	processorArchitecture="x86"
+	version="1.0.0.0" 
+	name="Microsoft.Windows.Regedit" type="win32" />
+<description>Registry Editor</description>
+<dependency>
+    <dependentAssembly>
+        <assemblyIdentity
+            type="win32"
+            name="Microsoft.Windows.Common-Controls"
+            version="6.0.0.0"
+            publicKeyToken="6595b64144ccf1df"
+            processorArchitecture="x86"
+        />
+    </dependentAssembly>
+</dependency>
+<application  xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings>
+        <dpiAware  xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true</dpiAware>
+    </windowsSettings>
+</application>
+<trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+        <requestedPrivileges>
+            <requestedExecutionLevel
+                level="highestAvailable"
+                uiAccess="false"
+            />
+        </requestedPrivileges>
+    </security>
+</trustInfo>
+</assembly>
